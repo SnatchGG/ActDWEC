@@ -1,4 +1,4 @@
--Uso de la extensión de vscode "Live server" para la utilización del local storage.
+-Uso de la extensión de VScode "Live server" para la utilización del local storage.
 
 Name: Live Server
 Id: ritwickdey.LiveServer
