@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+
+    <link href="../Estilos/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Datos del pedido</h1>
+
+    <a href="../Principal/Principal.html" class="volver">Volver a inicio</a>
+
+    <div id="contenedorPedidos">
+        <div id="datos">
+            <input type="text" name="nPedido" placeholder="Número de pedido" id="nPedido">
+            <input type="text" name="cNombre" placeholder="Nombre del cliente" id="cNombre">
+            <input type="text" name="cApellido" placeholder="Apellido del cliente" id="cApellido">
+            <input type="text" name="fecha" placeholder="Fecha de pedido" id="fecha">
+            <select name="procesado" id="procesado">
+                <option value="" selected>Indica si está procesado</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+            <select name="servido" id="servido">
+                <option value="" selected>Indica si está servido</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+
+        <div id="alta">
+            <button id="altaclick">Dar de alta</button>
+        </div>
+
+        <div id="operaciones">
+            <input type="text" name="nConsulta" placeholder="Número de pedido..." id="nConsulta">
+            <button id="consultarclick">Consultar</button>
+            <button id="modificarclick">Modificar</button>
+            <button id="bajaclick">Baja</button>
+        </div>
+    </div>
+
+    <script type="module" src="Gestion pedidos.js"></script>
+</body>
+</html>
